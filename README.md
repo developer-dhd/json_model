@@ -5,8 +5,7 @@
 # json_model [![Pub](https://img.shields.io/pub/v/json_model.svg?style=flat-square)](https://pub.dartlang.org/packages/json_model)
 
 一行命令，将Json文件转为Dart model类。
-**把网上大神修改的驼峰命名合并到了master分支**
-**使用方式如下：**
+**把网上大神修改的驼峰命名合并到了master分支，使用方式如下：**
 ```yaml
 json_model:
     git:
