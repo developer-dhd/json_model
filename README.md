@@ -5,12 +5,6 @@
 # json_model [![Pub](https://img.shields.io/pub/v/json_model.svg?style=flat-square)](https://pub.dartlang.org/packages/json_model)
 
 一行命令，将Json文件转为Dart model类。
-**把网上大神修改的驼峰命名合并到了master分支，使用方式如下：**
-```yaml
-json_model:
-    git:
-      url: "https://github.com/developer-dhd/json_model.git"
-```
 
 ## 安装
 
@@ -18,6 +12,16 @@ json_model:
 dev_dependencies: 
   json_model: ^1.0.0
   json_serializable: ^5.0.0
+```
+
+## 本仓库使用方式
+**把网上大神修改的驼峰命名合并到了master分支，使用方式如下：**
+```yaml
+dev_dependencies:
+  json_serializable: ^5.0.0
+  json_model:
+    git:
+      url: "https://github.com/developer-dhd/json_model.git"
 ```
 
 ## 使用
