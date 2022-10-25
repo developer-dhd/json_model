@@ -1,6 +1,16 @@
 
 语言: [English](README.md) | [中文简体](README-ZH.md)
 
+# 本仓库使用方式
+**把网上大神修改的驼峰命名合并到了master分支，引用方式如下：**
+```yaml
+dev_dependencies:
+  json_serializable: ^5.0.0
+  json_model:
+    git:
+      url: "https://github.com/developer-dhd/json_model.git"
+```
+**其他部分使用按照原作者方式使用即可**
 
 # json_model [![Pub](https://img.shields.io/pub/v/json_model.svg?style=flat-square)](https://pub.dartlang.org/packages/json_model)
 
@@ -12,16 +22,6 @@
 dev_dependencies: 
   json_model: ^1.0.0
   json_serializable: ^5.0.0
-```
-
-## 本仓库使用方式
-**把网上大神修改的驼峰命名合并到了master分支，使用方式如下：**
-```yaml
-dev_dependencies:
-  json_serializable: ^5.0.0
-  json_model:
-    git:
-      url: "https://github.com/developer-dhd/json_model.git"
 ```
 
 ## 使用
