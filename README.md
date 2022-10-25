@@ -6,7 +6,7 @@
 
 一行命令，将Json文件转为Dart model类。
 **把网上大神修改的驼峰命名合并到了master分支**
-**使用方式**
+**使用方式如下：**
 ```yaml
 json_model:
     git:
